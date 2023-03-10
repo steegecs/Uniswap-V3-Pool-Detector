@@ -1,0 +1,9 @@
+
+###############################
+##### Pool-Level Metadata #####
+###############################
+
+type LiquidityPool @entity {
+  " Smart contract address of the pool "
+  id: ID!
+}
